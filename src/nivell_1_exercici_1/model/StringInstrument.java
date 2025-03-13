@@ -1,9 +1,9 @@
-package nivell_1_exercici_1;
+package nivell_1_exercici_1.model;
 
 public class StringInstrument extends Instrument {
 
     static {
-        System.out.println("The class String_instrument has been loaded");
+        System.out.println("The class StringInstrument has been loaded");
     }
 
     public StringInstrument(String name, double price) {

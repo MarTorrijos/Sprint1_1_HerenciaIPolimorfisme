@@ -1,4 +1,4 @@
-package nivell_1_exercici_1;
+package nivell_1_exercici_1.model;
 
 public abstract class Instrument {
 
@@ -10,20 +10,19 @@ public abstract class Instrument {
         this.price = price;
     }
 
-    public String getName() {
-        return name;
-    }
     public double getPrice() {
         return price;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
     public void setPrice(int price) {
         this.price = price;
     }
 
     public abstract String play();
+
+    @Override
+    public String toString() {
+        return "A " + this.name + " with a price of " + this.price;
+    }
 
 }

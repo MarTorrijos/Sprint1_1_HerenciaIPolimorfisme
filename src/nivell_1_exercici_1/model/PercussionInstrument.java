@@ -1,9 +1,9 @@
-package nivell_1_exercici_1;
+package nivell_1_exercici_1.model;
 
 public class PercussionInstrument extends Instrument {
 
     static {
-        System.out.println("The class Percussion has been loaded");
+        System.out.println("The class PercussionInstrument has been loaded");
     }
 
     public PercussionInstrument(String name, double price) {
