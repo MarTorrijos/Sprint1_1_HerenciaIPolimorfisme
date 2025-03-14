@@ -1,4 +1,4 @@
-package nivell_3_exercici_1;
+package nivell_3_exercici_1.model.entity;
 
 public class TennisArticle extends Article {
 

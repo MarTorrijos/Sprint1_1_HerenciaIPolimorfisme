@@ -1,4 +1,4 @@
-package nivell_2_exercici_1;
+package nivell_2_exercici_1.model.interfaces;
 
 public interface Clock {
 

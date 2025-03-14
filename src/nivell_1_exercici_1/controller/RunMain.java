@@ -6,7 +6,7 @@ import nivell_1_exercici_1.model.WindInstrument;
 
 public class RunMain {
 
-    public static void  run() {
+    public static void run() {
         WindInstrument windInstrument1 = new WindInstrument("Trumpet", 839);
         StringInstrument stringInstrument1 = new StringInstrument("Harp", 2400);
         PercussionInstrument percussionInstrument1 = new PercussionInstrument("Drum kit", 1200);

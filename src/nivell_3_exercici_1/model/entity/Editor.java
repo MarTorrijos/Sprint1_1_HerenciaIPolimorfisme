@@ -1,4 +1,4 @@
-package nivell_3_exercici_1;
+package nivell_3_exercici_1.model.entity;
 
 public class Editor {
 
@@ -15,9 +15,6 @@ public class Editor {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getDNI() {
         return DNI;
@@ -25,10 +22,6 @@ public class Editor {
 
     public int getSalary() {
         return salary;
-    }
-
-    public void setSalary(int salary) {
-        this.salary = salary;
     }
 
     public void raiseSalary(int salaryIncrement) {
